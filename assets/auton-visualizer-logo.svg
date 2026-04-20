@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img">
+<title>Auton Visualizer</title>
+<desc>A waypoint path forming the letter A, with the apex waypoint selected.</desc>
+<rect x="0" y="0" width="512" height="512" rx="86" fill="#0d1826"/>
+<polyline points="131,404 256,125 381,404" fill="none" stroke="#3d9bff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="182" y1="290" x2="330" y2="290" stroke="#3d9bff" stroke-width="14" stroke-linecap="round"/>
+<circle cx="131" cy="404" r="23" fill="#dceeff"/>
+<circle cx="381" cy="404" r="23" fill="#dceeff"/>
+<circle cx="182" cy="290" r="17" fill="#dceeff"/>
+<circle cx="330" cy="290" r="17" fill="#dceeff"/>
+<circle cx="256" cy="125" r="43" fill="none" stroke="#ff8a3d" stroke-width="7"/>
+<circle cx="256" cy="125" r="23" fill="#ff8a3d"/>
+</svg>

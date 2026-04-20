@@ -1,0 +1,42 @@
+{
+  "name": "auton-visualizer",
+  "displayName": "VEX Auton Visualizer",
+  "description": "Visualizes and edits VEX 144x144 Auton path waypoints directly in VS Code",
+  "publisher": "vex-auton-devs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vex/auton"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:auton-visualizer.start"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "auton-visualizer.start",
+        "title": "Start Auton Visualizer"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "18.x",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^3.7.1",
+    "typescript": "^5.1.3"
+  }
+}
